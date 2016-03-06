@@ -12,3 +12,24 @@ write into csv
 3. scheduled Apex job, running every week get latest movies into salesforce
 
 4. new UI
+
+
+Fields:
+
+Poster
+Movie Title
+Movie Title in Chinese
+Release Year
+Country
+Genre
+Language
+IMBb Rate
+Runtime
+Director
+Cast
+Storyline
+Blooper
+Reviews
+Awards
+Download URL
+Thunder URL
