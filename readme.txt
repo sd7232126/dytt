@@ -16,20 +16,21 @@ write into csv
 
 Fields:
 
-Poster
-Movie Title
-Movie Title in Chinese
-Release Year
-Country
-Genre
-Language
-IMBb Rate
-Runtime
-Director
-Cast
-Storyline
-Blooper
-Reviews
-Awards
-Download URL
-Thunder URL
+Publish Date at DYTT, Date
+Poster URL, URL
+Movie Title, Text(50)
+Movie Title in Chinese, Text(50)
+Release Year, Text(20)
+Country, Text(50)
+Genres, Text(50)
+Language, Text(50)
+IMBb Rate, Number(2, 1)
+Runtime, Text(20)
+Director, Text(50)
+Cast, Text Area(Long)
+Storyline, Text Area(Long)
+Trivia, Text Area(Long)
+Reviews, Text Area(Long)
+Awards, Text Area(Long)
+Download URL, URL
+Thunder URL, URL
