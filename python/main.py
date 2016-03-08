@@ -53,44 +53,40 @@ for i in range(1):
 		# Context List
 		context_list = content_text.find(id="Zoom").get_text('\n', strip=True).split('◎')
 		for context in context_list:
-			if '片　　名' in context:
+			if '译　　名' in context:
+				movie_title_translated = context.replace("译　　名", "").strip()
+				print("Mobie Title Translated: " + movie_title_translated)
+			elif '片　　名' in context:
 				movie_title = context.replace("片　　名", "").strip()
 				print("Mobie Title: " + movie_title)
-			elif '译　　名' in context:
-				movie_title_in_chinese = context.replace("译　　名", "").strip()
-				print("Mobie Title in Chinese: " + movie_title_in_chinese)
+			elif '年　　代' in context:
+				release_year = context.replace("年　　代", "").strip()
+				print("Release Year: " + release_year)
+			elif '国　　家' in context:
+				country = context.replace("国　　家", "").strip()
+				print("Country: " + country)
+			elif '类　　别' in context:
+				genres = context.replace("类　　别", "").strip()
+				print("Genres: " + genres)
+			elif '语　　言' in context:
+				language = context.replace("语　　言", "").strip()
+				print("Language: " + language)
+			elif 'IMDb评分' in context:
+				imdb_rate = context.replace("IMDb评分", "").strip()
+				print("IMDb Rate: " + imdb_rate)
+			elif '片　　长' in context:
+				runtime = context.replace("片　　长", "").strip()
+				print("Runtime: " + runtime)
+			elif '导　　演' in context:
+				director = context.replace("导　　演", "").strip()
+				print("Director: " + director)
+			elif '主　　演' in context:
+				cast = context.replace("主　　演", "").strip()
+				print("Cast: " + cast)
+			elif '简　　介' in context:
+				storyline = context.replace("简　　介", "").strip()
+				print("Storyline: " + storyline)
 
-
-
-		# # Movie Title, Text(50)
-		# movie_title = content_text.find(id="Zoom").find_all('p')[0].find_all('br')[2].next.replace("◎片　　名", "").strip()
-		# print("Mobie Title: " + movie_title)
-
-		# # Movie Title in Chinese, Text(50)
-		# movie_title_in_chinese = content_text.find(id="Zoom").find_all('p')[0].find_all('br')[1].next.replace("◎译　　名", "").strip()
-		# print("Mobie Title in Chinese: " + movie_title_in_chinese)
-
-		# # Release Year, Text(20)
-		# release_year = content_text.find(id="Zoom").find_all('p')[0].find_all('br')[3].next.replace("◎年　　代", "").strip()
-		# print("Release Year: " + release_year)
-
-		# # Country, Text(50)
-		# country = content_text.find(id="Zoom").find_all('p')[0].find_all('br')[4].next.replace("◎国　　家", "").strip()
-		# print("Country: " + country)
-
-		# # Genres, Text(50)
-		# genres = content_text.find(id="Zoom").find_all('p')[0].find_all('br')[5].next.replace("◎类　　别", "").strip()
-		# print("Genres: " + genres)
-
-		# # Language, Text(50)
-		# language = content_text.find(id="Zoom").find_all('p')[0].find_all('br')[6].next.replace("◎语　　言", "").strip()
-		# print("Language: " + language)
-
-		# # IMDb Rate, Number(2, 1)
-		# # Runtime, Text(20)
-		# # Director, Text(50)
-		# # Cast, Text Area(Long)
-		# # Storyline, Text Area(Long)
 		# # Trivia, Text Area(Long)
 		# # Reviews, Text Area(Long)
 		# # Awards, Text Area(Long)
@@ -104,4 +100,5 @@ for i in range(1):
 		# # thunder_url = str(content_text.find(id="Zoom").find('table').find('a').get('gxmywwto')).strip();
 		# # print("Thunder URL: " + thunder_url)
 
+		print("\n")
 		# break
