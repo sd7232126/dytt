@@ -11,9 +11,9 @@ import re
 import urllib.request
 from bs4 import BeautifulSoup
 
-# proxy_support = urllib.request.ProxyHandler({"http":"http://iedub98:8080", "https":"https://iedub98:8080"})
-# opener = urllib.request.build_opener(proxy_support)
-# urllib.request.install_opener(opener)
+proxy_support = urllib.request.ProxyHandler({"http":"http://iedub98:8080", "https":"https://iedub98:8080"})
+opener = urllib.request.build_opener(proxy_support)
+urllib.request.install_opener(opener)
 
 def find_between(s, first, last):
     try:
@@ -66,7 +66,7 @@ for i in range(number_of_pages):
 		awards = ""
 		download_url = ""
 		# test url
-		# url = "http://www.ygdy8.net/html/gndy/dyzz/20150904/48932.html"
+		# url = "http://www.ygdy8.net/html/gndy/dyzz/20100430/25797.html"
 		# test url
 		try:
 			response = urllib.request.urlopen(url).read()
@@ -81,70 +81,88 @@ for i in range(number_of_pages):
 			# Publish Date at DYTT, Date
 			publish_date = content_text.next.strip().replace("发布时间：", "").strip()
 			# print("Publish Date at DYTT: " + publish_date)
+
 			# Poster URL, URL
-			poster_url = content_text.find(id="Zoom").find_all('p')[0].find('img').get('src')
+			poster_url = content_text.find(id="Zoom").find('img').get('src')
 			# print("Poster URL: " + poster_url)
-			# Context List
-			context_list = content_text.find(id="Zoom").find('p').get_text('\n', strip=True).split('◎')
-			for context in context_list:
-				if '译　　名' in context:
-					movie_title_translated = context.replace("译　　名", "").strip()
+
+			# content List
+			content_list = content_text.find(id="Zoom").find(text=re.compile("片　　名")).parent.parent.get_text('\n', strip=True).split('◎')
+
+			for content in content_list:
+				if '译　　名' in content:
+					movie_title_translated = content.replace("译　　名", "").strip()
 					# print("Mobie Title Translated: " + movie_title_translated)
-				elif '片　　名' in context:
-					movie_title = context.replace("片　　名", "").strip()
+				elif '片　　名' in content:
+					movie_title = content.replace("片　　名", "").strip()
 					# print("Mobie Title: " + movie_title)
-				elif '年　　代' in context:
-					release_year = context.replace("年　　代", "").strip()
+				elif '年　　代' in content:
+					release_year = content.replace("年　　代", "").strip()
 					# print("Release Year: " + release_year)
-				elif '国　　家' in context:
-					country = context.replace("国　　家", "").strip()
+				elif '国　　家' in content:
+					country = content.replace("国　　家", "").strip()
 					# print("Country: " + country)
-				elif '类　　别' in context:
-					genres = context.replace("类　　别", "").strip()
+				elif '类　　别' in content:
+					genres = content.replace("类　　别", "").strip()
 					# print("Genres: " + genres)
-				elif '语　　言' in context:
-					language = context.replace("语　　言", "").strip()
+				elif '语　　言' in content:
+					language = content.replace("语　　言", "").strip()
 					# print("Language: " + language)
-				elif 'IMDb评分' in context:
-					imdb_rate_text = context.replace("IMDb评分", "").strip()
-					imdb_rate = float(imdb_rate_text.split("/")[0].strip())
+				elif 'IMDb评分' in content:
+					imdb_rate_text = content.replace("IMDb评分", "").strip()
+					try:
+						imdb_rate = float(imdb_rate_text.split("/")[0].strip())
+					except:
+						imdb_rate = 0
+						pass
 					# print("IMDb Rate: " + str(imdb_rate))
-				elif '片　　长' in context:
-					runtime = context.replace("片　　长", "").strip()
+				elif 'IMDB评分' in content:
+					imdb_rate_text = content.replace("IMDB评分", "").strip()
+					try:
+						imdb_rate = float(imdb_rate_text.split("/")[0].strip())
+					except:
+						imdb_rate = 0
+						pass
+					# print("IMDb Rate: " + str(imdb_rate))
+				elif '片　　长' in content:
+					runtime = content.replace("片　　长", "").strip()
 					# print("Runtime: " + runtime)
-				elif '导　　演' in context:
-					director = context.replace("导　　演", "").strip()
+				elif '导　　演' in content:
+					director = content.replace("导　　演", "").strip()
 					# print("Director: " + director)
-				elif '主　　演' in context:
-					if '简　　介' in context:
-						cast = context.split("简　　介", 1)[0].strip()
+				elif '主　　演' in content:
+					if '简　　介' in content:
+						cast = content.split("简　　介", 1)[0].strip()
 						# print("Cast: \n" + cast)
-						storyline = context.split("简　　介", 1)[1].strip()
+						storyline = content.split("简　　介", 1)[1].strip()
 						# print("Storyline: " + storyline)
 					else:
-						cast = context.replace("主　　演", "").strip()
+						cast = content.replace("主　　演", "").strip()
 						# print("Cast: \n" + cast)
-				elif '简　　介' in context:
-					storyline = context.replace("简　　介", "").strip()
+				elif '简　　介' in content:
+					storyline = content.replace("简　　介", "").strip()
 					# print("Storyline: " + storyline)
-				elif '幕后花絮' in context:
-					trivia = context.replace("幕后花絮", "").strip()
+				elif '幕后花絮' in content:
+					trivia = content.replace("幕后花絮", "").strip()
 					# print("Trivia: " + trivia)
-				elif '花　　絮' in context:
-					trivia = context.replace("花　　絮", "").strip()
+				elif '花　　絮' in content:
+					trivia = content.replace("花　　絮", "").strip()
 					# print("Trivia: " + trivia)
-				elif '影片评价' in context:
-					reviews = context.replace("影片评价", "").strip()
+				elif '影片评价' in content:
+					reviews = content.replace("影片评价", "").strip()
 					# print("Reviews: " + reviews)
-				elif '简　　评' in context:
-					reviews = context.replace("简　　评", "").strip()
+				elif '简　　评' in content:
+					reviews = content.replace("简　　评", "").strip()
 					# print("Reviews: " + reviews)
-				elif '获奖情况' in context:
-					awards = context.replace("获奖情况", "").strip()
+				elif '获奖情况' in content:
+					awards = content.replace("获奖情况", "").strip()
 					# print("Awards: " + awards)
 
 			# Download URL, URL
-			download_url = str(content_text.find(id="Zoom").find('table').find('a').get('href')).strip();
+			if content_text.find(id="Zoom").find('table').find('a').get('thunderrestitle') is not None:
+				download_url = str(content_text.find(id="Zoom").find('table').find('a').get('thunderrestitle')).strip();
+			else:
+				download_url = str(content_text.find(id="Zoom").find('table').find('a').get('href')).strip();
 			# print("Download URL: " + download_url)
 
 			# # Thunder URL, URL
