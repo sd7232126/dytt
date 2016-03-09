@@ -16,10 +16,12 @@ write into csv
 
 Fields:
 
+DYTT Name, Text(80)
+DYTT URL, URL
 Publish Date at DYTT, Date
 Poster URL, URL
-Movie Title Translated, Text(50)
-Movie Title, Text(50)
+Movie Title Translated, Text(100)
+Movie Title, Text(100)
 Release Year, Text(20)
 Country, Text(50)
 Genres, Text(50)
