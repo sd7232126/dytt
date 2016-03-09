@@ -35,4 +35,3 @@ Trivia, Text Area(Long)
 Reviews, Text Area(Long)
 Awards, Text Area(Long)
 Download URL, URL
-Thunder URL, URL
