@@ -1,0 +1,298 @@
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+n:\>:
+n:\>c:
+
+C:\>dir C:\Users\jiedding\Documents\GitHub\dytt\python
+ Volume in drive C is OSDisk
+ Volume Serial Number is 9CEA-B660
+
+ Directory of C:\Users\jiedding\Documents\GitHub\dytt\python
+
+10/03/2016  09:37    <DIR>          .
+10/03/2016  09:37    <DIR>          ..
+10/03/2016  09:43             8,159 main.py
+08/03/2016  15:17                 0 test.py
+               2 File(s)          8,159 bytes
+               2 Dir(s)  129,352,728,576 bytes free
+
+C:\>cd C:\Users\jiedding\Documents\GitHub\dytt\python
+
+C:\Users\jiedding\Documents\GitHub\dytt\python>dir
+ Volume in drive C is OSDisk
+ Volume Serial Number is 9CEA-B660
+
+ Directory of C:\Users\jiedding\Documents\GitHub\dytt\python
+
+10/03/2016  09:37    <DIR>          .
+10/03/2016  09:37    <DIR>          ..
+10/03/2016  09:43             8,159 main.py
+08/03/2016  15:17                 0 test.py
+               2 File(s)          8,159 bytes
+               2 Dir(s)  129,352,728,576 bytes free
+
+C:\Users\jiedding\Documents\GitHub\dytt\python>python --version
+Python 3.5.0
+
+C:\Users\jiedding\Documents\GitHub\dytt\python>python main.py
+Total Page: 168
+Total Movies: 4185
+Starting Page 1/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_1.html
+Starting Page 2/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_2.html
+Starting Page 3/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_3.html
+WARNING:root:Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+Starting Page 4/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_4.html
+Starting Page 5/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_5.html
+Starting Page 6/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_6.html
+Starting Page 7/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_7.html
+Starting Page 8/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_8.html
+Starting Page 9/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_9.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20150727/48625.html
+Starting Page 10/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_10.html
+WARNING:root:Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+Starting Page 11/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_11.html
+Starting Page 12/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_12.html
+Starting Page 13/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_13.html
+Starting Page 14/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_14.html
+Starting Page 15/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_15.html
+Starting Page 16/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_16.html
+WARNING:root:Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+Starting Page 17/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_17.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20141227/46952.html
+Starting Page 18/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_18.html
+Starting Page 19/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_19.html
+Starting Page 20/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_20.html
+WARNING:root:Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+Starting Page 21/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_21.html
+Starting Page 22/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_22.html
+Starting Page 23/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_23.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20140708/45615.html
+Starting Page 24/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_24.html
+WARNING:root:Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20140624/45482.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20140619/45447.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20140611/45394.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20140607/45355.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20140604/45325.html
+Starting Page 25/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_25.html
+Starting Page 26/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_26.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20140511/45136.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20140428/45007.html
+Starting Page 27/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_27.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20140410/44875.html
+Starting Page 28/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_28.html
+WARNING:root:Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+Starting Page 29/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_29.html
+Starting Page 30/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_30.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20140225/44503.html
+Starting Page 31/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_31.html
+Starting Page 32/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_32.html
+Starting Page 33/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_33.html
+Starting Page 34/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_34.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20131204/43833.html
+Starting Page 35/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_35.html
+Starting Page 36/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_36.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20131017/43439.html
+Starting Page 37/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_37.html
+Starting Page 38/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_38.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20130906/43095.html
+Starting Page 39/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_39.html
+Starting Page 40/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_40.html
+Starting Page 41/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_41.html
+Starting Page 42/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_42.html
+WARNING:root:Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+Starting Page 43/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_43.html
+Starting Page 44/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_44.html
+Starting Page 45/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_45.html
+Starting Page 46/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_46.html
+Starting Page 47/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_47.html
+Starting Page 48/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_48.html
+Starting Page 49/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_49.html
+Starting Page 50/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_50.html
+Starting Page 51/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_51.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20121210/40558.html
+Starting Page 52/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_52.html
+Starting Page 53/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_53.html
+Starting Page 54/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_54.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20121027/39961.html
+Starting Page 55/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_55.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20121015/39785.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20121005/39636.html
+Starting Page 56/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_56.html
+Starting Page 57/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_57.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20120829/39179.html
+Starting Page 58/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_58.html
+Starting Page 59/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_59.html
+WARNING:root:Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+Starting Page 60/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_60.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20120718/38614.html
+Starting Page 61/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_61.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20120629/38351.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20120623/38266.html
+Starting Page 62/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_62.html
+Starting Page 63/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_63.html
+WARNING:root:Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+Starting Page 64/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_64.html
+Starting Page 65/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_65.html
+Starting Page 66/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_66.html
+WARNING:root:Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+Starting Page 67/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_67.html
+Starting Page 68/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_68.html
+Starting Page 69/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_69.html
+Starting Page 70/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_70.html
+Starting Page 71/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_71.html
+Starting Page 72/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_72.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20120206/36315.html
+Starting Page 73/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_73.html
+Starting Page 74/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_74.html
+Starting Page 75/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_75.html
+Starting Page 76/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_76.html
+Starting Page 77/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_77.html
+Starting Page 78/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_78.html
+Starting Page 79/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_79.html
+Starting Page 80/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_80.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20111026/34827.html
+Starting Page 81/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_81.html
+Starting Page 82/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_82.html
+WARNING:root:Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+Starting Page 83/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_83.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20110924/34323.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20110920/34258.html
+Starting Page 84/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_84.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20110901/33976.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20110824/33850.html
+Starting Page 85/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_85.html
+Starting Page 86/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_86.html
+Starting Page 87/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_87.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20110723/33354.html
+Starting Page 88/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_88.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20110702/33034.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20110702/33033.html
+Starting Page 89/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_89.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20110613/32739.html
+Starting Page 90/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_90.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20110606/32627.html
+Starting Page 91/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_91.html
+Starting Page 92/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_92.html
+Starting Page 93/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_93.html
+Starting Page 94/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_94.html
+Starting Page 95/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_95.html
+Starting Page 96/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_96.html
+Starting Page 97/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_97.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20110303/31094.html
+Starting Page 98/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_98.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20110219/30879.html
+Starting Page 99/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_99.html
+Starting Page 100/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_100.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20110112/30294.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20110109/30240.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20110107/30207.html
+Starting Page 101/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_101.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20101231/30092.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20101231/30090.html
+Starting Page 102/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_102.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20101221/29927.html
+WARNING:root:Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+Starting Page 103/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_103.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20101209/29718.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20101208/29706.html
+Starting Page 104/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_104.html
+Starting Page 105/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_105.html
+Starting Page 106/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_106.html
+WARNING:root:Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+WARNING:root:Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+Starting Page 107/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_107.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20101019/28818.html
+Starting Page 108/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_108.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20101001/28495.html
+Starting Page 109/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_109.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20100919/28259.html
+Starting Page 110/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_110.html
+Starting Page 111/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_111.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20100828/27837.html
+Starting Page 112/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_112.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20100823/27744.html
+Starting Page 113/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_113.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20100820/27680.html
+Starting Page 114/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_114.html
+Starting Page 115/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_115.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20100726/27243.html
+Starting Page 116/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_116.html
+Starting Page 117/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_117.html
+Starting Page 118/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_118.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20100620/26619.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20100613/26501.html
+Starting Page 119/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_119.html
+Starting Page 120/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_120.html
+Starting Page 121/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_121.html
+Starting Page 122/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_122.html
+Starting Page 123/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_123.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20100428/25769.html
+Starting Page 124/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_124.html
+Starting Page 125/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_125.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20100413/25532.html
+Starting Page 126/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_126.html
+Starting Page 127/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_127.html
+Unexpected error at: http://www.ygdy8.net/html/tv/oumeitv/index.html
+Unexpected error at: http://www.ygdy8.net/html/tv/oumeitv/20100315/25035.html
+Starting Page 128/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_128.html
+Starting Page 129/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_129.html
+Starting Page 130/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_130.html
+Starting Page 131/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_131.html
+Starting Page 132/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_132.html
+Starting Page 133/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_133.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20100116/24024.html
+Starting Page 134/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_134.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20100110/23908.html
+Starting Page 135/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_135.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20100104/23792.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20100103/23765.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20091227/23674.html
+Starting Page 136/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_136.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20091223/23628.html
+Starting Page 137/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_137.html
+Starting Page 138/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_138.html
+Starting Page 139/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_139.html
+Starting Page 140/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_140.html
+Starting Page 141/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_141.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20091104/22688.html
+Starting Page 142/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_142.html
+Starting Page 143/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_143.html
+Starting Page 144/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_144.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20091016/22282.html
+Starting Page 145/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_145.html
+Starting Page 146/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_146.html
+Starting Page 147/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_147.html
+Starting Page 148/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_148.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20090911/21536.html
+Starting Page 149/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_149.html
+Starting Page 150/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_150.html
+Starting Page 151/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_151.html
+Starting Page 152/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_152.html
+Starting Page 153/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_153.html
+Starting Page 154/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_154.html
+Starting Page 155/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_155.html
+Starting Page 156/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_156.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20090528/19178.html
+Starting Page 157/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_157.html
+Starting Page 158/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_158.html
+Starting Page 159/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_159.html
+Starting Page 160/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_160.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20090423/18292.html
+Starting Page 161/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_161.html
+Starting Page 162/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_162.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20090328/17734.html
+Starting Page 163/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_163.html
+Starting Page 164/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_164.html
+Starting Page 165/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_165.html
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20090308/17377.html
+Starting Page 166/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_166.html
+WARNING:root:Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+Unexpected error at: http://www.ygdy8.net/html/gndy/dyzz/20090228/17241.html
+Starting Page 167/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_167.html
+Starting Page 168/168, at http://www.ygdy8.net/html/gndy/dyzz/list_23_168.html
+Number of Success: 4069
+Number of Failure: 71
+
+C:\Users\jiedding\Documents\GitHub\dytt\python>

@@ -11,9 +11,9 @@ import re
 import urllib.request
 from bs4 import BeautifulSoup
 
-# proxy_support = urllib.request.ProxyHandler({"http":"http://iedub98:8080", "https":"https://iedub98:8080"})
-# opener = urllib.request.build_opener(proxy_support)
-# urllib.request.install_opener(opener)
+proxy_support = urllib.request.ProxyHandler({"http":"http://iedub98:8080", "https":"https://iedub98:8080"})
+opener = urllib.request.build_opener(proxy_support)
+urllib.request.install_opener(opener)
 
 def find_between(s, first, last):
     try:
@@ -66,7 +66,7 @@ for i in range(number_of_pages):
 		awards = ""
 		download_url = ""
 		# test url
-		# url = "http://www.ygdy8.net/html/gndy/dyzz/20121122/40310.html"
+		# url = "http://www.ygdy8.net/html/gndy/dyzz/20100110/23908.html"
 		# test url
 		try:
 			response = urllib.request.urlopen(url).read()
@@ -189,10 +189,11 @@ for i in range(number_of_pages):
 		except:
 			print("Unexpected error at: " + url)
 			# print(sys.exc_info())
+			# print(traceback.format_exc())
 			# traceback.print_exc()
 			# logging.exception("Error Message: ")
 			number_of_failure = number_of_failure + 1
-			error_list.append([url, sys.exc_info()])
+			error_list.append([url, traceback.format_exc()])
 			pass
 
 		# break

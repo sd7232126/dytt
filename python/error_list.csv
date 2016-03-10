@@ -1,1 +1,416 @@
 "Location","Error Message"
+"http://www.ygdy8.net/html/gndy/dyzz/20150727/48625.html","Traceback (most recent call last):
+  File ""main.py"", line 83, in <module>
+    content_list = content_text.find(id=""Zoom"").find(text=re.compile(""导　　演"")).parent.parent.get_text('\n', strip=True).split(""【下载地址】"", 1)[0].split('◎')
+AttributeError: 'NoneType' object has no attribute 'parent'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20141227/46952.html","Traceback (most recent call last):
+  File ""main.py"", line 83, in <module>
+    content_list = content_text.find(id=""Zoom"").find(text=re.compile(""导　　演"")).parent.parent.get_text('\n', strip=True).split(""【下载地址】"", 1)[0].split('◎')
+AttributeError: 'NoneType' object has no attribute 'parent'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20140708/45615.html","Traceback (most recent call last):
+  File ""main.py"", line 83, in <module>
+    content_list = content_text.find(id=""Zoom"").find(text=re.compile(""导　　演"")).parent.parent.get_text('\n', strip=True).split(""【下载地址】"", 1)[0].split('◎')
+AttributeError: 'NoneType' object has no attribute 'parent'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20140624/45482.html","Traceback (most recent call last):
+  File ""main.py"", line 83, in <module>
+    content_list = content_text.find(id=""Zoom"").find(text=re.compile(""导　　演"")).parent.parent.get_text('\n', strip=True).split(""【下载地址】"", 1)[0].split('◎')
+AttributeError: 'NoneType' object has no attribute 'parent'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20140619/45447.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20140611/45394.html","Traceback (most recent call last):
+  File ""main.py"", line 83, in <module>
+    content_list = content_text.find(id=""Zoom"").find(text=re.compile(""导　　演"")).parent.parent.get_text('\n', strip=True).split(""【下载地址】"", 1)[0].split('◎')
+AttributeError: 'NoneType' object has no attribute 'parent'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20140607/45355.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20140604/45325.html","Traceback (most recent call last):
+  File ""main.py"", line 83, in <module>
+    content_list = content_text.find(id=""Zoom"").find(text=re.compile(""导　　演"")).parent.parent.get_text('\n', strip=True).split(""【下载地址】"", 1)[0].split('◎')
+AttributeError: 'NoneType' object has no attribute 'parent'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20140511/45136.html","Traceback (most recent call last):
+  File ""main.py"", line 83, in <module>
+    content_list = content_text.find(id=""Zoom"").find(text=re.compile(""导　　演"")).parent.parent.get_text('\n', strip=True).split(""【下载地址】"", 1)[0].split('◎')
+AttributeError: 'NoneType' object has no attribute 'parent'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20140428/45007.html","Traceback (most recent call last):
+  File ""main.py"", line 72, in <module>
+    response = urllib.request.urlopen(url).read()
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\urllib\request.py"", line 162, in urlopen
+    return opener.open(url, data, timeout)
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\urllib\request.py"", line 465, in open
+    response = self._open(req, data)
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\urllib\request.py"", line 483, in _open
+    '_open', req)
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\urllib\request.py"", line 443, in _call_chain
+    result = func(*args)
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\urllib\request.py"", line 1268, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\urllib\request.py"", line 1243, in do_open
+    r = h.getresponse()
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\http\client.py"", line 1174, in getresponse
+    response.begin()
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\http\client.py"", line 282, in begin
+    version, status, reason = self._read_status()
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\http\client.py"", line 243, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), ""iso-8859-1"")
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\socket.py"", line 571, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20140410/44875.html","Traceback (most recent call last):
+  File ""main.py"", line 80, in <module>
+    poster_url = content_text.find(id=""Zoom"").find('img').get('src')
+AttributeError: 'NoneType' object has no attribute 'get'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20140225/44503.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20131204/43833.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20131017/43439.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20130906/43095.html","Traceback (most recent call last):
+  File ""main.py"", line 83, in <module>
+    content_list = content_text.find(id=""Zoom"").find(text=re.compile(""导　　演"")).parent.parent.get_text('\n', strip=True).split(""【下载地址】"", 1)[0].split('◎')
+AttributeError: 'NoneType' object has no attribute 'parent'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20121210/40558.html","Traceback (most recent call last):
+  File ""main.py"", line 72, in <module>
+    response = urllib.request.urlopen(url).read()
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\urllib\request.py"", line 162, in urlopen
+    return opener.open(url, data, timeout)
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\urllib\request.py"", line 465, in open
+    response = self._open(req, data)
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\urllib\request.py"", line 483, in _open
+    '_open', req)
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\urllib\request.py"", line 443, in _call_chain
+    result = func(*args)
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\urllib\request.py"", line 1268, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\urllib\request.py"", line 1243, in do_open
+    r = h.getresponse()
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\http\client.py"", line 1174, in getresponse
+    response.begin()
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\http\client.py"", line 282, in begin
+    version, status, reason = self._read_status()
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\http\client.py"", line 243, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), ""iso-8859-1"")
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\socket.py"", line 571, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20121027/39961.html","Traceback (most recent call last):
+  File ""main.py"", line 83, in <module>
+    content_list = content_text.find(id=""Zoom"").find(text=re.compile(""导　　演"")).parent.parent.get_text('\n', strip=True).split(""【下载地址】"", 1)[0].split('◎')
+AttributeError: 'NoneType' object has no attribute 'parent'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20121015/39785.html","Traceback (most recent call last):
+  File ""main.py"", line 174, in <module>
+    if content_text.find(id=""Zoom"").find('table').find('a').get('thunderrestitle') is not None:
+AttributeError: 'NoneType' object has no attribute 'get'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20121005/39636.html","Traceback (most recent call last):
+  File ""main.py"", line 83, in <module>
+    content_list = content_text.find(id=""Zoom"").find(text=re.compile(""导　　演"")).parent.parent.get_text('\n', strip=True).split(""【下载地址】"", 1)[0].split('◎')
+AttributeError: 'NoneType' object has no attribute 'parent'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20120829/39179.html","Traceback (most recent call last):
+  File ""main.py"", line 83, in <module>
+    content_list = content_text.find(id=""Zoom"").find(text=re.compile(""导　　演"")).parent.parent.get_text('\n', strip=True).split(""【下载地址】"", 1)[0].split('◎')
+AttributeError: 'NoneType' object has no attribute 'parent'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20120718/38614.html","Traceback (most recent call last):
+  File ""main.py"", line 83, in <module>
+    content_list = content_text.find(id=""Zoom"").find(text=re.compile(""导　　演"")).parent.parent.get_text('\n', strip=True).split(""【下载地址】"", 1)[0].split('◎')
+AttributeError: 'NoneType' object has no attribute 'parent'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20120629/38351.html","Traceback (most recent call last):
+  File ""main.py"", line 83, in <module>
+    content_list = content_text.find(id=""Zoom"").find(text=re.compile(""导　　演"")).parent.parent.get_text('\n', strip=True).split(""【下载地址】"", 1)[0].split('◎')
+AttributeError: 'NoneType' object has no attribute 'parent'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20120623/38266.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20120206/36315.html","Traceback (most recent call last):
+  File ""main.py"", line 83, in <module>
+    content_list = content_text.find(id=""Zoom"").find(text=re.compile(""导　　演"")).parent.parent.get_text('\n', strip=True).split(""【下载地址】"", 1)[0].split('◎')
+AttributeError: 'NoneType' object has no attribute 'parent'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20111026/34827.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20110924/34323.html","Traceback (most recent call last):
+  File ""main.py"", line 80, in <module>
+    poster_url = content_text.find(id=""Zoom"").find('img').get('src')
+AttributeError: 'NoneType' object has no attribute 'get'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20110920/34258.html","Traceback (most recent call last):
+  File ""main.py"", line 80, in <module>
+    poster_url = content_text.find(id=""Zoom"").find('img').get('src')
+AttributeError: 'NoneType' object has no attribute 'get'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20110901/33976.html","Traceback (most recent call last):
+  File ""main.py"", line 83, in <module>
+    content_list = content_text.find(id=""Zoom"").find(text=re.compile(""导　　演"")).parent.parent.get_text('\n', strip=True).split(""【下载地址】"", 1)[0].split('◎')
+AttributeError: 'NoneType' object has no attribute 'parent'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20110824/33850.html","Traceback (most recent call last):
+  File ""main.py"", line 80, in <module>
+    poster_url = content_text.find(id=""Zoom"").find('img').get('src')
+AttributeError: 'NoneType' object has no attribute 'get'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20110723/33354.html","Traceback (most recent call last):
+  File ""main.py"", line 83, in <module>
+    content_list = content_text.find(id=""Zoom"").find(text=re.compile(""导　　演"")).parent.parent.get_text('\n', strip=True).split(""【下载地址】"", 1)[0].split('◎')
+AttributeError: 'NoneType' object has no attribute 'parent'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20110702/33034.html","Traceback (most recent call last):
+  File ""main.py"", line 83, in <module>
+    content_list = content_text.find(id=""Zoom"").find(text=re.compile(""导　　演"")).parent.parent.get_text('\n', strip=True).split(""【下载地址】"", 1)[0].split('◎')
+AttributeError: 'NoneType' object has no attribute 'parent'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20110702/33033.html","Traceback (most recent call last):
+  File ""main.py"", line 83, in <module>
+    content_list = content_text.find(id=""Zoom"").find(text=re.compile(""导　　演"")).parent.parent.get_text('\n', strip=True).split(""【下载地址】"", 1)[0].split('◎')
+AttributeError: 'NoneType' object has no attribute 'parent'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20110613/32739.html","Traceback (most recent call last):
+  File ""main.py"", line 76, in <module>
+    content_text = soup.find(class_='co_content8').find('ul')
+AttributeError: 'NoneType' object has no attribute 'find'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20110606/32627.html","Traceback (most recent call last):
+  File ""main.py"", line 83, in <module>
+    content_list = content_text.find(id=""Zoom"").find(text=re.compile(""导　　演"")).parent.parent.get_text('\n', strip=True).split(""【下载地址】"", 1)[0].split('◎')
+AttributeError: 'NoneType' object has no attribute 'parent'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20110303/31094.html","Traceback (most recent call last):
+  File ""main.py"", line 72, in <module>
+    response = urllib.request.urlopen(url).read()
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\urllib\request.py"", line 162, in urlopen
+    return opener.open(url, data, timeout)
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\urllib\request.py"", line 465, in open
+    response = self._open(req, data)
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\urllib\request.py"", line 483, in _open
+    '_open', req)
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\urllib\request.py"", line 443, in _call_chain
+    result = func(*args)
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\urllib\request.py"", line 1268, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\urllib\request.py"", line 1243, in do_open
+    r = h.getresponse()
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\http\client.py"", line 1174, in getresponse
+    response.begin()
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\http\client.py"", line 282, in begin
+    version, status, reason = self._read_status()
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\http\client.py"", line 243, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), ""iso-8859-1"")
+  File ""C:\Users\jiedding\AppData\Local\Programs\Python\Python35-32\lib\socket.py"", line 571, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20110219/30879.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20110112/30294.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20110109/30240.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20110107/30207.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20101231/30092.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20101231/30090.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20101221/29927.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20101209/29718.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20101208/29706.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20101019/28818.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20101001/28495.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20100919/28259.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20100828/27837.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20100823/27744.html","Traceback (most recent call last):
+  File ""main.py"", line 174, in <module>
+    if content_text.find(id=""Zoom"").find('table').find('a').get('thunderrestitle') is not None:
+AttributeError: 'NoneType' object has no attribute 'get'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20100820/27680.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20100726/27243.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20100620/26619.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20100613/26501.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20100428/25769.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20100413/25532.html","Traceback (most recent call last):
+  File ""main.py"", line 83, in <module>
+    content_list = content_text.find(id=""Zoom"").find(text=re.compile(""导　　演"")).parent.parent.get_text('\n', strip=True).split(""【下载地址】"", 1)[0].split('◎')
+AttributeError: 'NoneType' object has no attribute 'parent'
+"
+"http://www.ygdy8.net/html/tv/oumeitv/index.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/tv/oumeitv/20100315/25035.html","Traceback (most recent call last):
+  File ""main.py"", line 83, in <module>
+    content_list = content_text.find(id=""Zoom"").find(text=re.compile(""导　　演"")).parent.parent.get_text('\n', strip=True).split(""【下载地址】"", 1)[0].split('◎')
+AttributeError: 'NoneType' object has no attribute 'parent'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20100116/24024.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20100110/23908.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20100104/23792.html","Traceback (most recent call last):
+  File ""main.py"", line 83, in <module>
+    content_list = content_text.find(id=""Zoom"").find(text=re.compile(""导　　演"")).parent.parent.get_text('\n', strip=True).split(""【下载地址】"", 1)[0].split('◎')
+AttributeError: 'NoneType' object has no attribute 'parent'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20100103/23765.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20091227/23674.html","Traceback (most recent call last):
+  File ""main.py"", line 83, in <module>
+    content_list = content_text.find(id=""Zoom"").find(text=re.compile(""导　　演"")).parent.parent.get_text('\n', strip=True).split(""【下载地址】"", 1)[0].split('◎')
+AttributeError: 'NoneType' object has no attribute 'parent'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20091223/23628.html","Traceback (most recent call last):
+  File ""main.py"", line 80, in <module>
+    poster_url = content_text.find(id=""Zoom"").find('img').get('src')
+AttributeError: 'NoneType' object has no attribute 'get'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20091104/22688.html","Traceback (most recent call last):
+  File ""main.py"", line 174, in <module>
+    if content_text.find(id=""Zoom"").find('table').find('a').get('thunderrestitle') is not None:
+AttributeError: 'NoneType' object has no attribute 'find'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20091016/22282.html","Traceback (most recent call last):
+  File ""main.py"", line 174, in <module>
+    if content_text.find(id=""Zoom"").find('table').find('a').get('thunderrestitle') is not None:
+AttributeError: 'NoneType' object has no attribute 'find'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20090911/21536.html","Traceback (most recent call last):
+  File ""main.py"", line 174, in <module>
+    if content_text.find(id=""Zoom"").find('table').find('a').get('thunderrestitle') is not None:
+AttributeError: 'NoneType' object has no attribute 'get'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20090528/19178.html","Traceback (most recent call last):
+  File ""main.py"", line 83, in <module>
+    content_list = content_text.find(id=""Zoom"").find(text=re.compile(""导　　演"")).parent.parent.get_text('\n', strip=True).split(""【下载地址】"", 1)[0].split('◎')
+AttributeError: 'NoneType' object has no attribute 'parent'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20090423/18292.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20090328/17734.html","Traceback (most recent call last):
+  File ""main.py"", line 83, in <module>
+    content_list = content_text.find(id=""Zoom"").find(text=re.compile(""导　　演"")).parent.parent.get_text('\n', strip=True).split(""【下载地址】"", 1)[0].split('◎')
+AttributeError: 'NoneType' object has no attribute 'parent'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20090308/17377.html","Traceback (most recent call last):
+  File ""main.py"", line 79, in <module>
+    publish_date = content_text.find(text=re.compile(""发布时间："")).strip().replace(""发布时间："", """").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+"
+"http://www.ygdy8.net/html/gndy/dyzz/20090228/17241.html","Traceback (most recent call last):
+  File ""main.py"", line 83, in <module>
+    content_list = content_text.find(id=""Zoom"").find(text=re.compile(""导　　演"")).parent.parent.get_text('\n', strip=True).split(""【下载地址】"", 1)[0].split('◎')
+AttributeError: 'NoneType' object has no attribute 'parent'
+"
